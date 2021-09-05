@@ -1,0 +1,12 @@
+docker_postgres:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: postgres
+      port: 5433
+      dbname: datastack_v1
+      schema: retail
+      threads: 4

@@ -1,0 +1,81 @@
+version: '3'
+
+services:
+  zookeeper:
+    image: zookeeper:3.4.9
+    hostname: zookeeper
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_PORT: 2181
+      ZOO_SERVERS: server.1=zookeeper:2888:3888
+    volumes:
+      - ./data/zookeeper/data:/data
+      - ./data/zookeeper/datalog:/datalog
+
+  kafka:
+    image: confluentinc/cp-kafka:5.3.0
+    hostname: kafka
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_ADVERTISED_LISTENERS: LISTENER_DOCKER_INTERNAL://kafka:19092,LISTENER_DOCKER_EXTERNAL://${DOCKER_HOST_IP:-127.0.0.1}:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: LISTENER_DOCKER_INTERNAL:PLAINTEXT,LISTENER_DOCKER_EXTERNAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: LISTENER_DOCKER_INTERNAL
+      KAFKA_ZOOKEEPER_CONNECT: "zookeeper:2181"
+      KAFKA_BROKER_ID: 1
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    volumes:
+      - ./data/kafka/data:/var/lib/kafka/data
+    depends_on:
+      - zookeeper
+
+  postgres:
+    image: postgres:10.0
+    hostname: postgres
+    container_name: postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=datastack_v1
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./data/postgres/data:/var/lib/postgresql/data
+
+  metabase_postgres:
+    image: postgres:10.0
+    hostname: metabase_postgres
+    container_name: metabase_postgres
+    restart: always
+    ports:
+      - "5434:5432"
+    environment:
+      - POSTGRES_DB=metabase
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./data/metabase_postgres/data:/var/lib/postgresql/data
+
+  metabase-app:
+    image: metabase/metabase
+    container_name: metabase
+    restart: always
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./data/metabase_data:/metabase-data
+    environment:
+      MB_DB_TYPE: postgres
+      MB_DB_DBNAME: metabase
+      MB_DB_PORT: 5432
+      MB_DB_USER: postgres
+      MB_DB_PASS: postgres
+      MB_DB_HOST: metabase_postgres
+    depends_on:
+      - metabase_postgres
+

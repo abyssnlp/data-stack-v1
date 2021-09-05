@@ -2,3 +2,6 @@ datasets/*
 venv/*
 DataStack_v1_Architecture.drawio
 .idea/*
+ImplementationNotes.txt
+dbt.Dockerfile
+data/*

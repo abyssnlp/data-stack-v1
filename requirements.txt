@@ -1,0 +1,7 @@
+apache-beam[test,docs]
+dbt==0.19.0
+prefect==0.15.4
+kafka-python==2.0.2
+openpyxl==3.0.7
+pandas~=1.2.5
+rich~=10.9.0
