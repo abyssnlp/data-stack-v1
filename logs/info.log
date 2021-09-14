@@ -1,0 +1,222 @@
+INFO 2021-09-04 23:55:38,101 [Producer.py:<module>:12]
+This worked!
+
+ERROR 2021-09-04 23:55:38,105 [Producer.py:<module>:14]
+This one failed!
+
+INFO 2021-09-05 00:42:28,938 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:28,941 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:29,942 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:29,943 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:30,928 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:30,929 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:31,938 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:31,939 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:32,953 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:32,955 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:33,956 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:33,957 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:34,959 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:34,960 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:35,971 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:35,972 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:36,984 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:36,985 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:37,996 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:37,997 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:39,006 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:39,008 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:40,021 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:40,022 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:41,030 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:41,031 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:42,036 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:42,037 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:43,055 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:43,056 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:44,060 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:44,061 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:45,071 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:45,072 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:46,079 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:46,080 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:47,090 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:47,091 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:48,106 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:48,107 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:49,119 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:49,120 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:50,134 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:50,135 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:51,140 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:51,141 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:52,150 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:52,151 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:53,161 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:53,162 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:54,172 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:54,173 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:55,184 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:55,185 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:56,198 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:56,199 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:57,205 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:57,206 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:58,216 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:58,217 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:42:59,232 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:42:59,233 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:43:00,241 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:43:00,242 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:43:01,256 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:43:01,257 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:43:02,264 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:43:02,265 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:43:03,278 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:43:03,279 [Producer.py:success:31]
+retail
+
+INFO 2021-09-05 00:43:04,290 [Producer.py:success:30]
+Successfully sent message to retail
+
+INFO 2021-09-05 00:43:04,291 [Producer.py:success:31]
+retail
+

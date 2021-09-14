@@ -6,5 +6,8 @@ ImplementationNotes.txt
 dbt.Dockerfile
 data/*
 datastack_v1/profiles.yml
+<<<<<<< HEAD
 __pycache__/*
 logs/*
+=======
+>>>>>>> e40be2387a452e28704651eb347c395aef1d8f7d
