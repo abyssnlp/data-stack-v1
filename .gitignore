@@ -5,3 +5,6 @@ DataStack_v1_Architecture.drawio
 ImplementationNotes.txt
 dbt.Dockerfile
 data/*
+datastack_v1/profiles.yml
+__pycache__/*
+logs/*

@@ -1,0 +1,7 @@
+
+target/
+dbt_modules/
+logs/
+.user.yml
+README.md
+profiles.yml

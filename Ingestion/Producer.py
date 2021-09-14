@@ -21,9 +21,9 @@ class RetailProducer:
 
     @staticmethod
     def get_data():
-        data: pd.DataFrame = pd.read_excel(os.path.join(DATA_DIR, "Online Retail.xlsx"))
+        data: pd.DataFrame = pd.read_csv(os.path.join(DATA_DIR, "online_retail.csv"))
         for idx, row in data.iterrows():
-            row_string = row.to_string(header=False, index=False)
+            row_string = ','.join(map(str, row.to_list()))
             yield row_string
 
     def success(self, metadata):
@@ -49,5 +49,5 @@ class RetailProducer:
 
 if __name__ == '__main__':
     producer = RetailProducer(bootstrap_servers="localhost:9092",
-                              topic="retail")
+                              topic="bankretail")
     producer.async_send()
